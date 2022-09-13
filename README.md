@@ -3,5 +3,5 @@
 
 |  案例   | 链接  |
 |  ----  | ----  |
-| 下坠的小鸟  | [菜鸟教程](www.baidu.com) |
+| 下坠的小鸟  | [flappy_bird](https://github.com/caiyilian/TotalCases/tree/main/flappy_bird) |
 
