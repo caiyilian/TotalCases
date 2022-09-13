@@ -1,5 +1,5 @@
 # TotalCases
-所有案例
+所有案例（每个案例都是运行main.py，不过记得先按照安装requirements.txt的相关依赖）
 
 |  案例   | 链接  |
 |  ----  | ----  |
