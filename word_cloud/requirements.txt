@@ -1,0 +1,5 @@
+jieba==0.42.1
+matplotlib==3.5.2
+numpy==1.21.6
+Pillow==9.2.0
+wordcloud==1.8.2.2
