@@ -4,8 +4,6 @@ import numpy as np
 from wordcloud import WordCloud, ImageColorGenerator
 import matplotlib.pyplot as plt
 import jieba
-import sys
-import os
 
 
 def generateCloud():
@@ -50,6 +48,7 @@ class Application(Frame):
             messagebox.showinfo("错误", "内容不能为空")
         else:
             print("正在转换...")
+            print(allText)
             wcd = self.generate_wordCloud(allText)
             self.img = wcd.to_image()
             self.photo = ImageTk.PhotoImage(self.img)
@@ -94,7 +93,10 @@ class Application(Frame):
                         mode="RGBA",
                         mask=im_mask,
                         )
-        wcd.generate_from_frequencies(freq)
+        try:
+            wcd.generate_from_frequencies(freq)
+        except ValueError:
+            raise ValueError("本次输入的内容无法生成词云，请更换成正常一点的内容")
         wcd.recolor(color_func=im_colors)
 
         return wcd
