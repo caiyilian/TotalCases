@@ -1,0 +1,5 @@
+numpy==1.21.6
+paddle==1.0.2
+paddlenlp==2.4.0
+paddlepaddle_gpu==2.3.2.post101
+psyco==1.6
