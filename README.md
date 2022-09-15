@@ -8,4 +8,5 @@
 | 戴帽子  | [wear_hat](https://github.com/caiyilian/TotalCases/tree/main/wear_hat) |
 | 机器学习可视化  | [ML_vis](https://github.com/caiyilian/TotalCases/tree/main/ML_vis) |
 | 自动生成古诗词  | [auto_poem](https://github.com/caiyilian/TotalCases/tree/main/auto_poem) |
+| 蓝线挑战  | [blue_line](https://github.com/caiyilian/TotalCases/tree/main/blue_line) |
 
